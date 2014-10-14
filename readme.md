@@ -4,7 +4,7 @@ A rest server exposing database for CRUD edit built on flask
 
 # Execution
 
-```bash
+```shell
 $ python iperf
 ```
 
@@ -21,7 +21,7 @@ $ python iperf
 
 ## Manual
 
-```bash
+```shell
 $ curl localhost:5000/user/2/apps
 $ curl localhost:5000/user/1/plans
 $ curl localhost:5000/app/1
@@ -39,13 +39,13 @@ $ curl -iH 'Content-Type: application/json' -X POST -d @user localhost:5000/user
 
 ## Automatic
 
-```bash
+```shell
 $ nosetests
 ```
 
 # Docker Build
 
-```bash
+```shell
 # docker build -t iperf . 
 ```
 
