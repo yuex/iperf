@@ -1,6 +1,8 @@
 # Intro
 
-A rest server exposing database for CRUD edit built on flask
+A REST server , built on flask, exposes database tables for CRUD-style access.
+
+It's still very primitive. But the way it exploits to automatically generates REST URLs from the declarations of database tables may be of some interests.
 
 # Execution
 
@@ -46,7 +48,7 @@ $ nosetests
 # Docker Build
 
 ```shell
-# docker build -t iperf . 
+$ docker build -t iperf .
 ```
 
 # Todo
